@@ -1,4 +1,1 @@
-Nuevas pestañas "Contacto" y "Regístrese"
-Logos de redes sociales más chicos (100x100)
-Eliminación de "width: 25%" en HTML (es buena práctica que vaya en CSS) y de "h3" (los "h" deben ir en orden y no se pueden saltear. No había "h2", por ejemplo)
-Agrupamientos de selectores que tenían mismas propiedades en CSS
+git commit -m
