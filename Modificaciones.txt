@@ -1,1 +1,8 @@
 git commit -m
+
+Cambio de "h1" a "h2" a todos los "h" salvo el primero (para que sea correctamente aceptado por el validatorW3)
+Enlaces correctos a Whatsapp y a Instagram
+Título de footer pasa a ser "Contacto:" en vez de "Contacto"
+"h2" pasa a tener margin-right: 10px para que haya espacio entre "Contacto:" y los 4 logos de las redes sociales
+Borrado de algunos "Lorem ipsum", por texto real
+Se agregó una transformación (en los íconos del footer, al hacer ":hover")
