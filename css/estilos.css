@@ -17,6 +17,7 @@ h1{
 h2{
     font-size: 1.7em;
     margin-right: 10px;
+    color: rgb(199,198,198);
 }
 
 
@@ -27,20 +28,26 @@ p{font-size: 1.25em;}
 .container{
     max-width: 1400px;
     margin: auto;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 header .logo{
     margin: 0;
-}
+    width: 15%;
+    display: block;
+    margin: auto;
 
-header .logo img{
-    width: 25%;
 }
 
 header .container{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start;    
 }
 
 header nav{
@@ -49,6 +56,7 @@ header nav{
     text-align: flex-end;
     padding-bottom: 25px;
     height: 10vh;
+
 }
 
 header a{
@@ -65,7 +73,11 @@ header a:hover{
 #servicios .container, #ubicación .container, #reservas .container, #contacto .container, #quienes-somos .container{
     text-align: center;
     color: rgb(199,198,198);
-    padding: 50px 12px;
+    padding: 35px 12px;
+}
+
+iframe{
+    margin-top: 50px;
 }
 
 footer .container{
