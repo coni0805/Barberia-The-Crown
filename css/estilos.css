@@ -24,6 +24,20 @@ h2{
 h3{font-size: 1.1em;}
 p{font-size: 1.25em;}
 
+.nur{
+  color: #FFD700;
+
+
+}
+
+#contactForm{
+  padding-bottom: 50px;
+}
+
+.section-heading-text-uppercase{
+  padding-top: 50px;
+  font-size: 50px;
+}
 
 .container{
     max-width: 1400px;
@@ -200,3 +214,4 @@ footer img:hover{
       grid-column: 1 / 2;
     }
   }
+
