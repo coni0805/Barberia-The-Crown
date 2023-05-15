@@ -25,7 +25,7 @@ h3{font-size: 1.1em;}
 p{font-size: 1.25em;}
 
 .nur{
-  color: #D1B055;
+  color: rgb(117, 88, 17);
 
 
 }
@@ -50,7 +50,7 @@ p{font-size: 1.25em;}
 }
 
 .container-servis{
-    background-color: black;
+    background-color: rgb(30, 30, 30);
     color: rgb(199,198,198);
     border-radius: 10px;
     padding: 20px;
@@ -64,7 +64,7 @@ p{font-size: 1.25em;}
   }
   
   .grid-item {
-    background-color: goldenrod;
+    background-color: rgb(117, 88, 17);
     padding: 20px;
     font-size: 24px;
     display: flex;
@@ -73,7 +73,7 @@ p{font-size: 1.25em;}
     align-items: center;
     border-radius: 10px;
     margin: 10px;
-    color: black;
+    color: rgb(30 , 30, 30);
     font-weight: bold;
   }
   
@@ -82,8 +82,8 @@ p{font-size: 1.25em;}
   }
   
   .image-container img {
-    width: 400px;
-    height: 350px;
+    max-width: 100%;
+    max-height: 100%;
   }
   
   .content-container {
@@ -97,7 +97,7 @@ p{font-size: 1.25em;}
   
   .content-container label {
     margin: 0;
-    background-color: #b48f33;
+    background-color: rgb(117, 88, 17);
   }
   
   .content-container input[type="checkbox"] {
