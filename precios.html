@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería The Crown</title>
+    <link href="css/estilos.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="./imágenes/icono.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="./imágenes/logo_low.png" alt="Barbería The Crown">
+        </div>
+
+        <nav>
+            <div class="container">
+                    <a href="index.html">INICIO</a>
+                    <a href="servicios.html">NUESTROS SERVICIOS</a>
+                    <a href="index.html#ubicación">UBICACIÓN</a>
+                    <a href="precios.html">PRECIOS</a>
+                    <a href="#redes">NUESTRAS REDES</a>
+                    <a href="contacto.html">CONTACTO</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+
+        <div class="container-servis">
+            <div class="grid-container" id="app">
+              <h1>PRECIOS</h1>
+              <div class="grid-item" v-for="elemento in servicios">
+                <div class="image-container">
+                  <img :src="elemento.imagen" :alt="elemento.servicio">
+                </div>
+                <div class="content-container">
+                  <input type="checkbox" id="P1">
+                  <label for="checkbox1">{{elemento.servicio}} ${{elemento.precio}}</label>
+                </div>
+              </div>
+            </div>
+    
+            <div class="grid-item">
+              <div style="background-color: goldenrod;" id="precio">
+                  precio   
+                </div>
+              <div style="background-color: goldenrod;" id="descuento">
+                  descuento    
+                </div>
+            <br>
+                <div style="background-color: goldenrod;" id="preciototal">
+                  precio total
+                </div>
+      
+            </div>
+    
+          </div>
+
+
+
+
+
+    </main>
+
+    <footer id="redes">
+        <div class="container">
+            <h2>Nuestras redes: </h2>
+            <nav>
+                <a class="redes" href="https://www.facebook.com/" target="_blank"><img src="./imágenes/facebook.png" alt="Facebook"></a>
+                <a class="redes" href="https://www.instagram.com/" target="_blank"><img src="./imágenes/instagram.png" alt="Instagram"></a>
+                <a class="redes" href="https://web.whatsapp.com/send?phone=1166325001" target="_blank"><img src="./imágenes/wapp.png" alt="WhatsApp"></a>
+                <a class="redes" href="mailto:info@barberiathecrown.com.ar" target="_blank"><img src="./imágenes/sobre.png" alt="Mail"></a>
+            </nav>
+
+        </div>
+    </footer>
+    <script src="./barberia.json"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/servicios.js"> </script>
+    <script src="./js/barberia.js"> </script>
+</body>
+
+</html>
