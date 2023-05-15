@@ -12,7 +12,7 @@ function DocumentoCargado(){
    let checkboxP5 = document.getElementById("P5"); 
    let checkboxP6 = document.getElementById("P6");  
    
-   alert(algo);
+   //alert(algo);
    
    checkboxP1.onclick = checkboxP1Apretado; 
    checkboxP2.onclick = checkboxP2Apretado;

@@ -25,7 +25,7 @@ h3{font-size: 1.1em;}
 p{font-size: 1.25em;}
 
 .nur{
-  color: #FFD700;
+  color: #D1B055;
 
 
 }
@@ -82,8 +82,8 @@ p{font-size: 1.25em;}
   }
   
   .image-container img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 400px;
+    height: 350px;
   }
   
   .content-container {
