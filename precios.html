@@ -23,7 +23,7 @@
                     <a href="index.html">INICIO</a>
                     <a href="servicios.html">NUESTROS SERVICIOS</a>
                     <a href="index.html#ubicación">UBICACIÓN</a>
-                    <a href="precios.html">PRECIOS</a>
+                    <a href="Precios.html">PRECIOS</a>
                     <a href="#redes">NUESTRAS REDES</a>
                     <a href="contacto.html">CONTACTO</a>
             </div>
@@ -33,15 +33,60 @@
         
 
         <div class="container-servis">
-            <div class="grid-container" id="app">
-              <h1>PRECIOS</h1>
-              <div class="grid-item" v-for="elemento in servicios">
+            <div class="grid-container">
+              <h1>NUESTROS SERVICIOS</h1>
+              <div class="grid-item">
                 <div class="image-container">
-                  <img :src="elemento.imagen" :alt="elemento.servicio">
+                  <img src="./imágenes/Finales/afeitado.jpg" alt="afeitado">
                 </div>
                 <div class="content-container">
                   <input type="checkbox" id="P1">
-                  <label for="checkbox1">{{elemento.servicio}} ${{elemento.precio}}</label>
+                  <label for="checkbox1">Afeitado $1000</label>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="image-container">
+                  <img src="./imágenes/Finales/spa2.jpg" alt="claritos">
+                </div>
+                <div class="content-container">
+                  <input type="checkbox" id="P2">
+                  <label for="checkbox2">Claritos $1000</label>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="image-container">
+                  <img src="./imágenes/Finales/corte.jpg" alt="corte">
+                </div>
+                <div class="content-container">
+                  <input type="checkbox" id="P3">
+                  <label for="checkbox3">corte $1500</label>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="image-container">
+                  <img src="./imágenes/Finales/LAVADO.jpg" alt="LAVADO">
+                </div>
+                <div class="content-container">
+                  <input type="checkbox" id="P4">
+                  <label for="checkbox4">LAVADO $1000</label>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="image-container">
+                  <img src="./imágenes/Finales/nav.jpg" alt="modelado">
+                </div>
+                <div class="content-container">
+                  <input type="checkbox" id="P5">
+                  <label for="checkbox5">modelado $1000</label>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="image-container">
+                  <img src="./imágenes/Finales/spa.jpg" alt="spa">
+                </div>
+                <div class="content-container">
+                  <input type="checkbox" id="P6">
+                  <label for="checkbox6">spa $1000</label>
                 </div>
               </div>
             </div>
@@ -62,7 +107,7 @@
     
           </div>
 
-
+          <script src="./js/servicios.js"> </script>
 
 
 
@@ -80,10 +125,7 @@
 
         </div>
     </footer>
-    <script src="./barberia.json"></script>
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="./js/servicios.js"> </script>
-    <script src="./js/barberia.js"> </script>
+
 </body>
 
 </html>
