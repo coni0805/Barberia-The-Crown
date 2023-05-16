@@ -1,43 +1,49 @@
 [
     {
-        "id": 1,
+        "id": "P1",
         "servicio": "Afeitado",
         "precio": 1000,
-        "imagen": "./imágenes/Finales/afeitado.jpg"
+        "imagen": "./imágenes/Finales/afeitado.jpg",
+        "descripcion": "Usamos las mejores cremas"
     },
 
     {
-        "id": 2,
+        "id": "P2",
         "servicio": "Claritos",
         "precio": 1000,
-        "imagen": "./imágenes/Finales/claritos.jpg"
+        "imagen": "./imágenes/Finales/claritos.jpg",
+        "descripcion": "Los pequeños mechones de pelo que se iluminan con dos o tres tonos menos que el original"
     },
 
     {
-        "id": 3,
+        "id": "P3",
         "servicio": "Corte",
         "precio": 1500,
-        "imagen": "./imágenes/Finales/corte.jpg"
+        "imagen": "./imágenes/Finales/corte.jpg",
+        "descripcion": "Gran carta de cortes con tijera o navaja."
     },
 
     {
-        "id": 4,
+        "id":"P4",
         "servicio": "Lavado",
         "precio": 1000,
-        "imagen": "./imágenes/Finales/LAVADO.jpg"
+        "imagen": "./imágenes/Finales/LAVADO.jpg",
+        "descripcion": "Con espuma o tradicional"
     },
 
     {
-        "id": 5,
+        "id":"P5",
         "servicio": "Modelado",
         "precio": 1000,
-        "imagen": "./imágenes/Finales/nav.jpg"
+        "imagen": "./imágenes/Finales/nav.jpg",
+        "descripcion": "Esculpimos la barba."
     },
 
     {
-        "id": 6,
+        "id": "P6",
         "servicio": "Spa",
         "precio": 1000,
-        "imagen": "./imágenes/Finales/spa2.jpg"
+        "imagen": "./imágenes/Finales/spa2.jpg",
+        "descripcion": "Revitalisamos el bello facial."
     }
 ]

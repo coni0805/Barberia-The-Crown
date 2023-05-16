@@ -22,7 +22,7 @@
             <div class="container">
                     <a href="index.html">INICIO</a>
                     <a href="servicios.html">NUESTROS SERVICIOS</a>
-                    <a href="index.html#ubicación">UBICACIÓN</a>
+                    <a href="ubicacion.html">UBICACIÓN</a>
                     <a href="precios.html">PRECIOS</a>
                     <a href="#redes">NUESTRAS REDES</a>
                     <a href="contacto.html">CONTACTO</a>
@@ -30,72 +30,37 @@
         </nav>
     </header>
     <main>
+      <section id="servicios">
+        <div class="container">
+            <div class="img-servicios"></div>
+            <h1 class="nur">Nuestros Servicios</h1>
+            <p>Contamos con un salón masculino de peluquería y barbería estilo londinense, combinamos la antigua tradición de tijeras y navajas con los más modernos estilos. Además, ofrecemos novedosos servicios, tales como spá y modelado de barba, entre otros. </p>
+        </div>
+    </section>
         
 
-        <div class="container-servis">
-            <div class="grid-container">
-              <h1>Nuestros Servicios</h1>
-              <div class="grid-item">
-                <div class="image-container">
-                  <img src="./imágenes/Finales/afeitado.jpg" alt="afeitado">
-                </div>
-                <div class="content-container">
-                  <label for="checkbox1">Afeitado</label>
-                </div>
-              </div>
-              <div class="grid-item">
-                <div class="image-container">
-                  <img src="./imágenes/Finales/claritos.jpg" alt="claritos">
-                </div>
-                <div class="content-container">
-                  <label for="checkbox2">Claritos</label>
-                </div>
-              </div>
-              <div class="grid-item">
-                <div class="image-container">
-                  <img src="./imágenes/Finales/corte.jpg" alt="corte">
-                </div>
-                <div class="content-container">
-                  <label for="checkbox3">Corte</label>
-                </div>
-              </div>
-              <div class="grid-item">
-                <div class="image-container">
-                  <img src="./imágenes/Finales/LAVADO.jpg" alt="lavado">
-                </div>
-                <div class="content-container">
-                  <label for="checkbox4">Lavado</label>
-                </div>
-              </div>
-              <div class="grid-item">
-                <div class="image-container">
-                  <img src="./imágenes/Finales/modelado.jpg" alt="modelado">
-                </div>
-                <div class="content-container">
-                  <label for="checkbox5">Modelado</label>
-                </div>
-              </div>
-              <div class="grid-item">
-                <div class="image-container">
-                  <img src="./imágenes/Finales/spa2.jpg" alt="spa">
-                </div>
-                <div class="content-container">
-                  <label for="checkbox6">Spa</label>
-                </div>
-              </div>
+      <div class="container-servis">
+        <div class="grid-container" id="app">
+          <h1>Nuestros servicios</h1>
+          <div class="grid-item" v-for="elemento in servicios">
+            <div class="content-container">
+              <label>{{elemento.servicio}}</label>
+              <label></label>
             </div>
-    
-            <div id="descuento">
-
+            
+            <div class="image-container">
+              <img :src="elemento.imagen" :alt="elemento.servicio">
             </div>
-        
-            <div id="preciototal">
-         
+            <div class="content-container">
+              <label>  {{elemento.descripcion}}</label>
             </div>
-    
           </div>
+        </div>
 
-          <script src="servicios.js"> </script>
+          <script src="./barberia.json"></script>
+          <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+          <script src="./js/servicios.js"> </script>
+          <script src="./js/barberia.js"> </script>
 
 
 

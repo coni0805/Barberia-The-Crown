@@ -1,41 +1,41 @@
 let datos = [
     {
-        "id": 1,
+        "id": "P1",
         "servicio": "Afeitado",
         "precio": 1000,
         "imagen": "./imágenes/Finales/afeitado.jpg"
     },
 
     {
-        "id": 2,
+        "id": "P2",
         "servicio": "Claritos",
         "precio": 1000,
         "imagen": "./imágenes/Finales/claritos.jpg"
     },
 
     {
-        "id": 3,
+        "id": "P3",
         "servicio": "Corte",
         "precio": 1500,
         "imagen": "./imágenes/Finales/corte.jpg"
     },
 
     {
-        "id": 4,
+        "id": "P4",
         "servicio": "Lavado",
         "precio": 1000,
         "imagen": "./imágenes/Finales/LAVADO.jpg"
     },
 
     {
-        "id": 5,
+        "id": "P5",
         "servicio": "Modelado",
         "precio": 1000,
         "imagen": "./imágenes/Finales/nav.jpg"
     },
 
     {
-        "id": 6,
+        "id": "P6",
         "servicio": "Spa",
         "precio": 1000,
         "imagen": "./imágenes/Finales/spa2.jpg"
