@@ -31,7 +31,7 @@ let datos = [
         "id": "P5",
         "servicio": "Modelado",
         "precio": 1000,
-        "imagen": "./imágenes/Finales/nav.jpg"
+        "imagen": "./imágenes/Finales/modelado.jpg"
     },
 
     {
