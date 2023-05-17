@@ -4,7 +4,7 @@
         "servicio": "Afeitado",
         "precio": 1000,
         "imagen": "./imágenes/Finales/afeitado.jpg",
-        "descripcion": "Usamos las mejores cremas"
+        "descripcion": "Utilizamos las mejores cremas"
     },
 
     {
@@ -12,7 +12,7 @@
         "servicio": "Claritos",
         "precio": 1000,
         "imagen": "./imágenes/Finales/claritos.jpg",
-        "descripcion": "Los pequeños mechones de pelo que se iluminan con dos o tres tonos menos que el original"
+        "descripcion": "Pequeños mechones de cabello que se iluminan con dos o tres tonos menos que el original"
     },
 
     {
@@ -20,7 +20,7 @@
         "servicio": "Corte",
         "precio": 1500,
         "imagen": "./imágenes/Finales/corte.jpg",
-        "descripcion": "Gran carta de cortes con tijera o navaja."
+        "descripcion": "Gran carta de cortes con tijera o navaja"
     },
 
     {
@@ -28,15 +28,15 @@
         "servicio": "Lavado",
         "precio": 1000,
         "imagen": "./imágenes/Finales/LAVADO.jpg",
-        "descripcion": "Con espuma o tradicional"
+        "descripcion": "Con aceites vegetales o tradicional"
     },
 
     {
         "id":"P5",
         "servicio": "Modelado",
         "precio": 1000,
-        "imagen": "./imágenes/Finales/nav.jpg",
-        "descripcion": "Esculpimos la barba."
+        "imagen": "./imágenes/Finales/modelado.jpg",
+        "descripcion": "Esculpimos tu barba"
     },
 
     {
@@ -44,6 +44,6 @@
         "servicio": "Spa",
         "precio": 1000,
         "imagen": "./imágenes/Finales/spa2.jpg",
-        "descripcion": "Revitalisamos el bello facial."
+        "descripcion": "Revitalizamos el bello facial"
     }
 ]
