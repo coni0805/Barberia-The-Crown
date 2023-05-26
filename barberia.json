@@ -4,7 +4,7 @@
         "servicio": "Afeitado",
         "precio": 1000,
         "imagen": "./imágenes/Finales/afeitado.jpg",
-        "descripcion": "Utilizamos las mejores cremas"
+        "descripcion": "Utilizamos las mejores cremas para lograr el mejor afeitado"
     },
 
     {
@@ -12,9 +12,9 @@
         "servicio": "Claritos",
         "precio": 1000,
         "imagen": "./imágenes/Finales/claritos.jpg",
-        "descripcion": "Pequeños mechones de cabello que se iluminan con dos o tres tonos menos que el original"
+        "descripcion": "Iluminá tu cabello con dos o tres tonos menos que el original"
     },
-
+ 
     {
         "id": "P3",
         "servicio": "Corte",
